@@ -1,0 +1,463 @@
+/*
+	Robotic Modelling and Drone Skin Design - Example Website
+	By Brandon WInter | staffs.ac.uk
+	Copyright (c) 2022 Brandon Winter - All Rights Reserved
+*/
+
+html, body 
+{
+	border: 0;
+	margin: 0;
+	padding: 0;
+	
+	height: 100%;
+}
+
+html
+{
+	scroll-behavior: smooth;
+}
+
+body
+{
+	display: grid;
+	grid-template-columns: auto 0px 0px;
+	
+	font-family: 'Dosis', sans-serif;
+	color: #0e0030;
+}
+
+footer
+{
+	background: #160053;
+	color: white;
+	
+	font-size: x-small;
+	font-family: Tahoma, sans-serif;
+	
+	margin: 0;
+	
+	display: flex;
+	justify-content: center;
+}
+
+
+/* Class Definitions */
+
+.title
+{
+    font-size: 120px;
+    color: white;
+    width: 75%;
+}
+
+.card
+{
+	background: #FFFFFF;
+	border-radius: 15px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	
+	padding: 5vh;
+}
+
+.card-content-wrapper
+{	
+	max-height: 85vh;
+	max-width: 70vw;
+	
+	overflow: auto;
+}
+
+.contact-icon
+{
+	color: #002D51;
+	
+	font-size: x-large;
+}
+
+.floating-action-button
+{	
+	aspect-ratio: 1;
+	
+	border-radius: 50%;
+
+	display: flex;
+	align-items: center; 
+	justify-content: center;
+	
+	text-decoration: none;
+	
+	cursor: pointer;
+}
+
+.floating-action-button:active
+{
+	box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.2), 0 2px 8px 0 rgba(0, 0, 0, 0.19) !important;
+	filter: brightness(85%);
+}
+
+.floating-action-button:hover
+{
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.footer-content-wrapper
+{
+	padding-bottom: 10px;
+}
+
+.nav-decoration-bg
+{
+	border-left: 0px solid #FFFFFF;
+	
+	height: 100%;
+}
+
+.nav-decoration-bg:last-child
+{
+	border-right: 4px solid #FFFFFF;
+	
+	padding-right: 4px;
+}
+
+.nav-inner-wrapper
+{
+	position: absolute;
+	
+	height: 100%;
+	width: 100%;
+}
+
+.nav-link-button
+{
+	background: rgb(49, 49, 49);
+	color: #310047;
+	
+	box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+	
+	margin-left: 15%;
+	width: 100%;
+}
+
+.nav-link-button-current-selection
+{
+	background: #45004e !important;
+	color: rgb(77, 77, 77) !important;
+}
+
+.nav-links-inner-wrapper
+{
+	height: 80%;
+	width: 100%;
+	
+	display: flex;
+	flex-direction: column;
+	justify-content:space-around;
+}
+
+.nav-links-positional-wrapper
+{
+	height: 30%;
+	width: 100%;
+	
+	display: flex;
+	flex-direction: column;
+	justify-content:space-around;
+}
+
+.nav-wrapper
+{
+	position: fixed;
+	
+	height: 100vh;
+	width: 4%;
+}
+
+.section-viewport
+{
+	position: relative;
+	
+	display: -moz-flex;
+	display: -webkit-flex;
+	display: -ms-flex;
+	display: flex;
+	
+	-moz-flex-direction: column;
+	-webkit-flex-direction: column;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	
+	-moz-justify-content: center;
+	-webkit-justify-content: center;
+	-ms-justify-content: center;
+	justify-content: center;
+	
+	min-height: 100vh;
+}
+
+.section-wrapper
+{
+	height: 100%;
+	
+	display: flex; 
+	align-items: center; 
+	justify-content: center;
+}
+
+.ui-nav-element
+{
+	z-index: 1;
+}
+
+.ui-icon
+{
+	font-size: x-large;
+	
+	pointer-events: none;
+}
+
+.demo-display-text
+{
+    font-size: 25px;
+}
+
+.demo-display-text-title{
+    font-size: 45px;
+    font-style: normal;
+}
+
+.display-image-with-text
+{
+    width: 100%;
+    height: 390px;
+}
+
+.demo-text-box
+{
+    display: inline-block;
+    text-align: start;
+    height: 100%;
+    width: 50%;
+}
+
+#demo-content
+{
+    width: 100%;
+    height: fit-content;
+}
+
+#display-for-demo
+{
+    width: 100%;
+    height: fit-content;
+}
+
+.demo-stl-images{
+    max-width: 50%;
+    max-height: 390px;
+    float: left;
+    overflow: hidden;
+}
+
+#demo-images-text
+{
+    width: 50%;
+
+    float: right;
+    overflow: hidden;
+}
+
+/* Section Definitions */
+
+#landing
+{
+	background: #141414;
+}
+
+#about-me
+{
+	background: #131313;
+}
+
+#demonstration
+{
+	background: #0e0020;
+}
+
+#contact
+{
+	background: #141414;
+}
+
+
+/* Navigation Bar Definitions */
+
+#bar
+{
+    width: 46px;
+	background: #1d1d1d;
+}
+
+/* UI Elements */
+
+#about-image-wrapper
+{
+	float: right;
+	
+	display: flex;
+	align-items: center; 
+    flex-direction: column;
+    justify-content: space-around;
+    
+	width: 50%;
+}
+
+#about-text-wrapper
+{
+	float: left;
+	
+	width: 50%;
+}
+
+#contact-details-wrapper
+{
+	float: left;
+	
+	text-align: center;
+	
+	display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+    height: 25vh;
+	width: 50%;
+	
+	overflow: hidden;
+}
+
+#demo-viewer-wrapper
+{
+	text-align: center;
+	width: 50%;
+}
+
+#footer-copyright-notice
+{
+	font: inherit;
+	
+	float: right;
+	
+	padding-left: 20px;
+}
+
+#footer-icon-logo
+{
+	aspect-ratio: 1;
+	
+	float: left;
+	
+	height: 30px;
+}
+
+#landing-grid-bg
+{
+	background-image: url("../assets/images/background_image.jpg");
+	background-repeat: round;
+	background-size: 100%;
+	
+	position: absolute;
+	
+	height: 100%;
+	width: 100%;
+	
+	top: 0%;
+	left: 1.5%;
+	right: 0%;
+}
+
+#landing-decoration-wrapper
+{
+	position: absolute;
+	
+	height: 100%;
+	width: 100%;
+	
+	background: linear-gradient(0deg, #140012 0%, transparent 100%);
+	
+	display: flex;
+	align-items: center; 
+	justify-content: center;
+}
+
+#landing-wordmark-logo
+{
+	width: 75%;
+}
+
+#nav-decoration-wrapper
+{
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	
+	display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+
+#nav-links-wrapper
+{
+	display: flex;
+	align-items: center; 
+}
+
+#nav-logo-wrapper
+{
+	display: flex;
+	align-items: center; 
+}
+
+#nav-logomark-logo
+{	
+	aspect-ratio: 1;
+	
+	width: 175%;
+}
+
+#to-top-btn
+{
+	--offset: 50vh; /* Distance to travel before revealing button */
+
+	position: sticky;
+	
+	bottom: 20px;
+	margin-right: 30px;
+	margin-top: calc(100vh + var(--offset));
+	
+	place-self: end;
+	
+	color: #1E557E;
+	background: #FFFFFF;
+	opacity: 0.5;
+}
+
+#to-top-btn:hover
+{
+	opacity: 0.75;
+}
+
+
+/* Media Queries */
+
+@media screen and (orientation:landscape)
+{
+	#to-top-btn
+	{
+		height: 1.5%;
+	}
+}
+
+@media screen and (orientation:portrait)
+{
+	#to-top-btn
+	{
+		height: 1%;
+	}
+}	
