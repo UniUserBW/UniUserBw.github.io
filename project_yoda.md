@@ -292,3 +292,6 @@ Twi-Global, Twi Global Research Association/Institute, "What is laser cutting? â
 OneMonroe, (August, 2019), "What is Resin Casting?". Available at: [https://monroeengineering.com/blog/what-is-resin-casting/](https://monroeengineering.com/blog/what-is-resin-casting/)
 
 Twi-Global, Twi Global Research Association/Institute, "What are the advantages and disadvantages of 3D printing?". Available at: https://www.twi-global.com/technical-knowledge/faqs/what-is-3d-printing/pros-and-cons
+
+#Appendices:
+Printing files of all parts and Assembly guide with insutrctions. Available at: https://github.com/UniUserBW/UniUserBw.github.io/tree/045d34e583cb51cebbcc1897bebb46a93b33b64d/yoda%20parts 
