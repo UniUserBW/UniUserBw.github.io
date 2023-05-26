@@ -221,23 +221,19 @@ This version meets the criteria the arm needed to achieve, with the implementati
 
 ![](https://github.com/UniUserBW/UniUserBw.github.io/blob/1250356a323f7a6e8cc28b05bc43149229f54617/parts_images/ARM%205.png)
 
-The final version of the arm keeps hinge/joint system created in version 4 but changes the geometry of the arm by shortening what would be the arm to the animatronic, this creates a more realistic proportion of the arm.
+The final version of the arm keeps hinge/joint system created in version 4 but changes the geometry of the arm by shortening what would be the arm to the animatronic, this creates a more realistic proportion of the arm. This is important to make sure the weight and size of the part, works in combonation with the other parts.
 
 # Artefact creation:
 
-With the development applied to the arm as well as the main upper and lower body pieces constructed into 3D models, the main software elements have been achieved and will need to be created into a prototype.
+With the development applied to the arm as well as the main upper and lower body pieces constructed into 3D models, the main software elements producing the 3D models have been achieved and will need to be created into a prototype.
 
 ## Production Mediums:
 
-With the main parts constructed with 3D printing in mind 3D printing would be the main means to creating the parts to the prototype, this allows for quick and efficient development with little waste as 3D printing the parts can all be done at once. This would be the required method with the print in place hinge as this wouldn't be achievable through this design within other methods. The decision of material was PLA as it's a relatively cheap material with the safest properties for both environmental impacts and fumes etc. from the other alternatives, this material is also the most universal for usage as it requires a lower melting temperature but still provides solid and study prints with its usage being simpler it makes for better chances to create more accurate prints.
-
-This method was chosen over the use of SLA and resin as these processes would be significantly longer with a higher chance to cause issues or fail, these methods also don't allow for the same changes that can be made to PLA due to the materials brittleness.
+With the main parts constructed with 3D printing in mind 3D printing would be the main means to creating the parts to the prototype, this allows for quick and efficient development with little waste as 3D printing the parts can all be done at once. This would be the required method with the print in place hinge as this wouldn't be achievable through this design within other methods. The decision of material was PLA as it's a relatively cheap material with the safest properties for both environmental impacts and fumes etc. from the other alternatives, this material is also the most universal for usage as it requires a lower melting temperature but still provides solid and study prints with its usage being simpler it makes for better chances to create more accurate prints. This method was chosen over the use of SLA and resin as these processes would be significantly longer with a higher chance to cause issues or fail, these methods also don't allow for the same changes that can be made to PLA due to the materials brittleness.
 
 ## Prototype Development:
 
-With all the parts designed and the method of production decided, the prototype was to be developed through printing all the parts, assembling the printed parts with the motors and Arduino, coding the Arduino to implement the movement to the animatronic, designing the stands and possible outfits for the animatronic.
-
-The head being created first was successful with printing, following this the upper and lower body where created, alongside the two arms and hands, these are the main components to assemble as the rest attaches to these pieces and the construct they main foundation to the artefact.
+With all the parts designed and the method of production decided, the prototype was to be developed through printing all the parts, assembling the printed parts with the motors and Arduino, coding the Arduino to implement the movement to the animatronic, designing the stands and possible outfits for the animatronic. The head being created first was successful with printing, following this the upper and lower body where created, alongside the two arms and hands, these are the main components to assemble as the rest attaches to these pieces and the construct they main foundation to the artefact.
 
 ![](https://github.com/UniUserBW/UniUserBw.github.io/blob/1250356a323f7a6e8cc28b05bc43149229f54617/parts_images/IMG_4959.JPG)
 
@@ -249,9 +245,7 @@ The head being created first was successful with printing, following this the up
 
 ![](https://github.com/UniUserBW/UniUserBw.github.io/blob/1250356a323f7a6e8cc28b05bc43149229f54617/document_images/20230207_160034.jpg)
 
-With the aim of potentially adding sound/speakers to the animatronic for music and phrase was going to be important, after the assembly of the motors and with the main body and head, a piezo buzzer was added to the chest of the animatronic which allows for simple manipulation of hertz to create sounds and show how speakers would be used.
-
-From constructing the body to the head and implementing the hardware, it was clear the structure held well with the artefact supporting its own weight and standing on its own, the motors and parts fitting into place and the Arduino implemented onto the main body holding the lower and upper body parts together successfully, the next stages could progress.
+With the aim of adding sound/speakers to the animatronic for music and phrase was going to be important, after the assembly of the motors and with the main body and head, a piezo buzzer was added to the chest of the animatronic which allows for simple manipulation of hertz to create sounds and show how speakers would be used. This was used as it is a simple means of producing sound from the animatronic whilst requring the least amount of compontents. From constructing the body to the head and implementing the hardware, it was clear the structure held well with the artefact supporting its own weight and standing on its own, the motors and parts fitting into place and the Arduino implemented onto the main body holding the lower and upper body parts together successfully, the next stages could progress.
 
 The next stages include creating both clothing for the animatronic that would match the characters iconic clothing and painting to make the colours match the character.
 
@@ -265,23 +259,23 @@ Whilst the result of this did make the animatronic match the character more clos
 
 ![](https://github.com/UniUserBW/UniUserBw.github.io/blob/1250356a323f7a6e8cc28b05bc43149229f54617/document_images/9bf70391-1ad0-472f-86fc-234fd1a91422.jpg)
 
-During the development of the characters clothing being more realistic, the movement capabilities using the Arduino software were worked on to improve the range of motion and possible dance moves that could be performed by the artefact. A base was added from laser cutting acrylic alongside writing of "star wars" being engraved into the base which offered more support for movement as well as adding to the design. This made the model more stable and fixed a problem where the model could fall over during certain movements.
+During the development of the characters clothing being more realistic, the movement capabilities using the Arduino software were worked on to improve the range of motion and possible dance moves that could be performed by the artefact. A base was added from laser cutting acrylic alongside writing of "star wars" being engraved into the base which offered more support for movement as well as adding to the design. This made the model more stable and fixed a problem where the model could fall over during certain movements. This was the chosen solution as it made for an efficient and cheap method of creating the paltform whilst allowing decorations to be added at the same time, it was also the easiest material to join the PLA yoda artefact to with sturdiness. 
 
 The colour palette design was improved with a lightsaber and different materials for clothing being used to match the colours the character wears being implemented; the colour palette was also made to be more realistic to the character using different paints to the previously used ones.
 
 ![](https://github.com/UniUserBW/UniUserBw.github.io/blob/1250356a323f7a6e8cc28b05bc43149229f54617/yoda_images/yoda.jpg)
 
-After the remake of the characters outfit and the change of colours being applied, also with the movements being finished the next step was using the buzzer within the chest of the animatronic to play music and sounds that matched the character. Using an external system called "DF Player Pro", a little device that allowed the storage of mp3 audio files and could be connected to the Arduino, sound files could be directly uploaded and saved and played through the buzzer.
+After the remake of the characters outfit and the change of colours being applied, also with the movements being finished the next step was using the buzzer within the chest of the animatronic to play music and sounds that matched the character. Using an external system called "DF Player Pro", a little device that allowed the storage of mp3 audio files and could be connected to the Arduino, sound files could be directly uploaded and saved and played through the buzzer. This was the best solution as it meant the artefact could be disconnected and work through power sources like a battery and made for a more realistic animatronic whilst also allowing the selection of audio files to increase from 1 to the storage size.
 
 ![](https://github.com/UniUserBW/UniUserBw.github.io/blob/1250356a323f7a6e8cc28b05bc43149229f54617/yoda_images/Three%20Yodas.png)
 
 ## Artefact Analysis:
 
-The result was having 3 prototype versions using different motor systems to universally work through production and making it more attuned for real manufacturing, this allows for a different selection of hardware such as different motors to be used as shown with regular motors and servo motors. This resulted in a stable animatronic that could play sounds and voice lines through speakers, being able to perform different dance moves and motions and an artefact that very closely resembled the character being created.
+The result was having 3 prototype versions using different motor systems to universally work through production and making it more attuned for real manufacturing, this allows for a different selection of hardware such as different motors to be used as shown with regular motors and servo motors. This resulted in a stable animatronic that could play sounds and voice lines through speakers, being able to perform different dance moves and motions and an artefact that very closely resembled the character being created. The improvement of the stand and the decorations with the felt and clothes made for a asthetic and visually appealing animatronic with real animatronic capabilities that directly meets the specification set out for the project.
 
 # Conclusion:
 
-The project ends with a deep understanding of a range of technologies and means of production being learned despite not all being used to create the artefact. The artefact showed clear use of 3D printing and the development of the parts used as well as covered the aims and objectives targeted almost perfectly. This model using 3D printing and the parts used could be made within a manufacturing process and would work as a real animatronic with the ability to be scaled up or down with minor changes being required.
+The project ends with a deep understanding of a range of technologies and means of production being learned despite not all being used to create the artefact. The artefact showed clear use of 3D printing and laser cutting with the development of the parts used as well as covered the aims and objectives targeted almost perfectly. This model using 3D printing and the parts used could be made within a manufacturing process and would work as a real animatronic with the ability to be scaled up or down with minor changes being required, especially with the compatability of different motor types.
 
 Understanding of 3D modelling software and their uses was heavily reinforced with a deeper look into designs such as hinges and connections that could be made through these means. The result provided an animatronic that met the criteria made for development with the capabilities of dancing and general movements, with signing and playing songs whilst being directly designed for the character being created and was overall a successful artefact. If more time was allocated to this project, improvements that could be made would be changing the use of Arduinos to micro processors to allow for better scalability of the animatronic and possible use of latex as the martial for skin.
 
