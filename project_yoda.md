@@ -47,7 +47,7 @@
 
 # Introduction:
 
-During this project, the main goal is to implement researched and tested commercially used 3D modelling software's and techniques, as well manufacturing processes and abilities at disposal. Using these methods, the aim is to produce a simple animatronic that can perform dances and movements as well as play songs and voice lines. Specifically, within this project, a recreation of an existing character model using these techniques will be produced. The development process to this project will be documented here whilst critically analysing the result as well as the processes used to create it. A range of technologies and software's that can be used will be researched and decided against with a development stage to the artefact and an overall conclusion.
+During this project, the main goal is to implement researched and tested commercially used 3D modelling software's and techniques, as well manufacturing processes and abilities at disposal. Using these methods, the aim is to produce a simple animatronic that can perform dances and movements as well as play songs and voice lines. Specifically, within this project, a recreation of an existing character model using these techniques will be produced (That character being Yoda). The development process to this project will be documented here whilst critically analysing the result as well as the processes used to create it. A range of technologies and software's that can be used will be researched and decided against with a development stage to the artefact and an overall conclusion.
 
 # Technologies:
 
@@ -101,9 +101,7 @@ Mesh mixer is from the same branch as 123D and can be used to edit and create hi
 
 # Concept:
 
-There are two specific key focus points the project will implement for the product to be completed which is a skin-based element, which can be based off the materials used or the texture provided such as latex printing, and a hinge element which will be designed in the 3d printing process.
-
-The chosen character to recreate is called "yoda" due to current trends at the beginning of this project but also being a well-known character, which already has animatronics designed on an industry scale making it applicable to a business standard. The decision was to make an animatronic version of this character that could simulate dancing with the use of motors and hinges on appendages to the character.
+The chosen character to recreate is called "yoda" due to current trends at the beginning of this project but also being a well-known character, which already has animatronics designed on an industry scale making it applicable to a business standard. From that character, two main elements was chosen as focus points with a third being an optional, these where a "skin" based element in which would be done using 3D pritnign technqiues and texture, and the other being a hinge element, using a rotational hinge on the arms of the artefact to allow it to recreate dancing and movement.
 
 The project specification:
 
@@ -175,9 +173,7 @@ Illustrator is used for the design and preparation for laser cutting to create t
 
 # Design:
 
-The base design or the model comprised of a using the microcontroller (which was going to be necessary for movement) as the structural support/endo skeleton with a custom support/frame that the microcontroller would fit on, this frame would act as the main stand to the artefact, with the microcontroller connecting all the elements together at the body. This was a risky design but works well at reducing the resources needed to produce it. The skin aspect is achieved by using the layering created through 3d printing to produce texture to the parts that would be created, with the parts being designed as their respective body parts to the character matching his skin colour to create the illusion of skin through the design.
-
-Hinges being a core feature to the artefact was aimed towards to the joints and appendages to the character, this consisting of the arms that would be connected through servo motors at the shoulders of the character, and another servo motor connecting the head to the body (body being microcontroller). With the hinges being the elbows on the arms, this allows for head rotation on the X axis, the shoulders to have rotation along the y axis, ad the hinges allowing the elbows to also rotate on the y axis.
+The base design or the model comprised of a using the microcontroller (which was going to be necessary for movement) as the structural support/endo skeleton with a custom support/frame that the microcontroller would fit on, this frame would act as the main stand to the artefact, with the microcontroller connecting all the elements together at the body. The reasoning for this is it reduces the cost and amount of print required as well as making it easily implementable with the electronics. The skin aspect is achieved by using the layering created through 3d printing to produce texture to the parts that would be created, with the parts being designed as their respective body parts to the character matching his skin colour to create the illusion of skin through the design. This was to make the artefact more realistic with simple methods and means to the production already being done. Hinges being a core feature to the artefact was aimed towards to the joints and appendages to the character, this consisting of the arms that would be connected through servo motors at the shoulders of the character, and another servo motor connecting the head to the body (body being Arduino). With the hinges being the elbows on the arms, this allows for head rotation on the X axis, the shoulders to have rotation along the y axis, ad the hinges allowing the elbows to also rotate on the y axis. The hinges work best on the arms as connecting the shoulders to the motors allows for y axis rotation and the hinges then provides rotation to the elbows for more arm movement without over complicating the desgin and process.
 
 ## Development of artefact:
 
