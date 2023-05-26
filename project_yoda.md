@@ -230,7 +230,7 @@ These parts ore comprised of functional components (Components to aid the struct
 
 The main upper and lower body parts required more planning due to meticulously measuring distances and sizes of the servos and Arduino to that would be required to construct the pieces together as well as holes for screws to hold it all into place. The lower body design was created with a hexagonal row of holes through the centre, this allowed for easy access for wiring and saves material and weight.
 
-![](RackMultipart20230526-1-7ohvgs_html_15c2e2ef725b3cb.png) ![](RackMultipart20230526-1-7ohvgs_html_234d0f51ab8dc2e9.png)
+![]([parts_images/Yoda Feet.png](https://github.com/UniUserBW/UniUserBw.github.io/blob/1250356a323f7a6e8cc28b05bc43149229f54617/parts_images/Yoda%20Feet.png)) ![](https://github.com/UniUserBW/UniUserBw.github.io/blob/1250356a323f7a6e8cc28b05bc43149229f54617/parts_images/Yoda%20Top.png)
 
 With one of the core focuses being around joints, the arms are the complex models with several stages of development required. This will be stages from creating an arm that meets the required size and metrics, up until its developed enough to have a joint and can rotate on an axis. The requirements for the arm is to be able to rotate around a point (that being the elbow) and being able to attach to the body through a motor, as well as having a stable base to attach the hands to.
 
@@ -238,17 +238,17 @@ Arm Development:
 
 ### Version 1:
 
-![](RackMultipart20230526-1-7ohvgs_html_4821d0de579b34dd.png) ![](RackMultipart20230526-1-7ohvgs_html_63c8d759af4dc30b.png)The first stage of the arm is strictly to create a design that fits in place to the body, whilst extending to appoint where a hand could be attached to the end.
+![]([RackMultipart20230526-1-7ohvgs_html_4821d0de579b34dd.png](https://github.com/UniUserBW/UniUserBw.github.io/blob/1250356a323f7a6e8cc28b05bc43149229f54617/parts_images/ARMV1.PNG)) ![](https://github.com/UniUserBW/UniUserBw.github.io/blob/1250356a323f7a6e8cc28b05bc43149229f54617/parts_images/ARM%203.png)The first stage of the arm is strictly to create a design that fits in place to the body, whilst extending to appoint where a hand could be attached to the end.
 
 This served as the base foundation to developing the arm, its clear where a hinge could be applied to add movement to the arm and the contact points are made at the ends, the character being created does not follow normal human body dimensions, so this arm is completely designed as a test. The changes made from the production of the basic arm was a more rigid design, since the hinge and arm is going to be two sections connected, the shape of the arm needed to me a straighter alignment to add hinges effectively unlike the curved basis of the previous version. This had its proportions matched to the rest of the body parts. The main change required is implementing the hinge in the next version.
 
 ## Version 2:
 
-![](RackMultipart20230526-1-7ohvgs_html_d3d0b973a54be7a7.png)This version meets the criteria the arm needed to achieve, with the implementation of a hinge which is a print in place hinge when 3d printing and a complete redesign of the outline and making it essentially two parts connected through the hinge, this part continues to use the same dimensions whilst having less filled in to save money and filament within the printing process. This allows the arm to pivot and rotate at the joint of the elbow which will allow the animatronic to recreate dancing and movement using the motors. Printing both pieces together and as a connected joint allow for quicker and simpler assembly and makes testing more efficient.
+![](https://github.com/UniUserBW/UniUserBw.github.io/blob/1250356a323f7a6e8cc28b05bc43149229f54617/parts_images/ARM%204.png)This version meets the criteria the arm needed to achieve, with the implementation of a hinge which is a print in place hinge when 3d printing and a complete redesign of the outline and making it essentially two parts connected through the hinge, this part continues to use the same dimensions whilst having less filled in to save money and filament within the printing process. This allows the arm to pivot and rotate at the joint of the elbow which will allow the animatronic to recreate dancing and movement using the motors. Printing both pieces together and as a connected joint allow for quicker and simpler assembly and makes testing more efficient.
 
 ## Final Version:
 
-![](RackMultipart20230526-1-7ohvgs_html_12f3c39068880b34.png)The final version of the arm keeps hinge/joint system created in version 4 but changes the geometry of the arm by shortening what would be the arm to the animatronic, this creates a more realistic proportion of the arm.
+![](https://github.com/UniUserBW/UniUserBw.github.io/blob/1250356a323f7a6e8cc28b05bc43149229f54617/parts_images/ARM%205.png)The final version of the arm keeps hinge/joint system created in version 4 but changes the geometry of the arm by shortening what would be the arm to the animatronic, this creates a more realistic proportion of the arm.
 
 # Artefact creation:
 
@@ -266,13 +266,13 @@ With all the parts designed and the method of production decided, the prototype 
 
 The head being created first was successful with printing, following this the upper and lower body where created, alongside the two arms and hands, these are the main components to assemble as the rest attaches to these pieces and the construct they main foundation to the artefact.
 
-![](RackMultipart20230526-1-7ohvgs_html_7c4b9251aad29bb3.jpg)
+![](https://github.com/UniUserBW/UniUserBw.github.io/blob/1250356a323f7a6e8cc28b05bc43149229f54617/parts_images/IMG_4959.JPG)
 
-![](RackMultipart20230526-1-7ohvgs_html_3fad68ab212b3bc6.jpg) ![](RackMultipart20230526-1-7ohvgs_html_ac7d2163b78492c3.jpg)
+![](https://github.com/UniUserBW/UniUserBw.github.io/blob/1250356a323f7a6e8cc28b05bc43149229f54617/document_images/20230207_154659.jpg) ![](https://github.com/UniUserBW/UniUserBw.github.io/blob/1250356a323f7a6e8cc28b05bc43149229f54617/document_images/20230207_153802.jpg)
 
-![](RackMultipart20230526-1-7ohvgs_html_1aa51f1afbffef3a.jpg)
+![](https://github.com/UniUserBW/UniUserBw.github.io/blob/1250356a323f7a6e8cc28b05bc43149229f54617/document_images/20230207_154859.jpg)
 
-![](RackMultipart20230526-1-7ohvgs_html_71a3fe84d7a96c56.png) ![](RackMultipart20230526-1-7ohvgs_html_50ce7a4d85300e06.jpg)
+![](https://github.com/UniUserBW/UniUserBw.github.io/blob/1250356a323f7a6e8cc28b05bc43149229f54617/document_images/20230207_160034.jpg)
 
 With the aim of potentially adding sound/speakers to the animatronic for music and phrase was going to be important, after the assembly of the motors and with the main body and head, a piezo buzzer was added to the chest of the animatronic which allows for simple manipulation of hertz to create sounds and show how speakers would be used.
 
@@ -280,25 +280,25 @@ From constructing the body to the head and implementing the hardware, it was cle
 
 The next stages include creating both clothing for the animatronic that would match the characters iconic clothing and painting to make the colours match the character.
 
-![](RackMultipart20230526-1-7ohvgs_html_2e0cc06bd208317b.png)
+![](https://github.com/UniUserBW/UniUserBw.github.io/blob/1250356a323f7a6e8cc28b05bc43149229f54617/yoda_images/Yoda%203.png)
 
 The main outfit was constructed to match the character using felt and a woven belt, this added make it look more realistic to the character and worked to hide the motors, speaker and Arduino. Following this the character was painted to meet the colour pallet that the character is created with.
 
-![](RackMultipart20230526-1-7ohvgs_html_e4518aad822ac529.png)
+![](https://github.com/UniUserBW/UniUserBw.github.io/blob/1250356a323f7a6e8cc28b05bc43149229f54617/yoda_images/Yoda%205.png)
 
 Whilst the result of this did make the animatronic match the character more closely, the colour pallet was inaccurate and would require more testing and painting trails to match the character more effectively. The character is well known to use a walking stick which was also created and implemented to the artefact.
 
-![](RackMultipart20230526-1-7ohvgs_html_2d3fa741faa3182f.jpg)
+![](https://github.com/UniUserBW/UniUserBw.github.io/blob/1250356a323f7a6e8cc28b05bc43149229f54617/document_images/9bf70391-1ad0-472f-86fc-234fd1a91422.jpg)
 
 During the development of the characters clothing being more realistic, the movement capabilities using the Arduino software were worked on to improve the range of motion and possible dance moves that could be performed by the artefact. A base was added from laser cutting acrylic alongside writing of "star wars" being engraved into the base which offered more support for movement as well as adding to the design. This made the model more stable and fixed a problem where the model could fall over during certain movements.
 
 The colour palette design was improved with a lightsaber and different materials for clothing being used to match the colours the character wears being implemented; the colour palette was also made to be more realistic to the character using different paints to the previously used ones.
 
-![](RackMultipart20230526-1-7ohvgs_html_5d8bf9f505306c86.png)
+![](https://github.com/UniUserBW/UniUserBw.github.io/blob/1250356a323f7a6e8cc28b05bc43149229f54617/yoda_images/yoda.jpg)
 
 After the remake of the characters outfit and the change of colours being applied, also with the movements being finished the next step was using the buzzer within the chest of the animatronic to play music and sounds that matched the character. Using an external system called "DF Player Pro", a little device that allowed the storage of mp3 audio files and could be connected to the Arduino, sound files could be directly uploaded and saved and played through the buzzer.
 
-![](RackMultipart20230526-1-7ohvgs_html_71e0dde93bc4bf06.jpg)
+![](https://github.com/UniUserBW/UniUserBw.github.io/blob/1250356a323f7a6e8cc28b05bc43149229f54617/yoda_images/Three%20Yodas.png)
 
 ## Artefact Analysis:
 
