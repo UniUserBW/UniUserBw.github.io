@@ -230,7 +230,7 @@ These parts ore comprised of functional components (Components to aid the struct
 
 The main upper and lower body parts required more planning due to meticulously measuring distances and sizes of the servos and Arduino to that would be required to construct the pieces together as well as holes for screws to hold it all into place. The lower body design was created with a hexagonal row of holes through the centre, this allowed for easy access for wiring and saves material and weight.
 
-![]([parts_images/Yoda Feet.png](https://github.com/UniUserBW/UniUserBw.github.io/blob/1250356a323f7a6e8cc28b05bc43149229f54617/parts_images/Yoda%20Feet.png) ![](https://github.com/UniUserBW/UniUserBw.github.io/blob/1250356a323f7a6e8cc28b05bc43149229f54617/parts_images/Yoda%20Top.png)
+![](https://github.com/UniUserBW/UniUserBw.github.io/blob/aaa0ef0976f7100bde148f9c239c4ee90b842ab5/parts_images/Yoda%20Feet.png) ![](https://github.com/UniUserBW/UniUserBw.github.io/blob/1250356a323f7a6e8cc28b05bc43149229f54617/parts_images/Yoda%20Top.png)
 
 With one of the core focuses being around joints, the arms are the complex models with several stages of development required. This will be stages from creating an arm that meets the required size and metrics, up until its developed enough to have a joint and can rotate on an axis. The requirements for the arm is to be able to rotate around a point (that being the elbow) and being able to attach to the body through a motor, as well as having a stable base to attach the hands to.
 
