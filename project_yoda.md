@@ -230,7 +230,8 @@ These parts ore comprised of functional components (Components to aid the struct
 
 The main upper and lower body parts required more planning due to meticulously measuring distances and sizes of the servos and Arduino to that would be required to construct the pieces together as well as holes for screws to hold it all into place. The lower body design was created with a hexagonal row of holes through the centre, this allowed for easy access for wiring and saves material and weight.
 
-![](https://github.com/UniUserBW/UniUserBw.github.io/blob/aaa0ef0976f7100bde148f9c239c4ee90b842ab5/parts_images/Yoda%20Feet.png) ![](https://github.com/UniUserBW/UniUserBw.github.io/blob/1250356a323f7a6e8cc28b05bc43149229f54617/parts_images/Yoda%20Top.png)
+![](https://github.com/UniUserBW/UniUserBw.github.io/blob/aaa0ef0976f7100bde148f9c239c4ee90b842ab5/parts_images/Yoda%20Feet.png) 
+![](https://github.com/UniUserBW/UniUserBw.github.io/blob/1250356a323f7a6e8cc28b05bc43149229f54617/parts_images/Yoda%20Top.png)
 
 With one of the core focuses being around joints, the arms are the complex models with several stages of development required. This will be stages from creating an arm that meets the required size and metrics, up until its developed enough to have a joint and can rotate on an axis. The requirements for the arm is to be able to rotate around a point (that being the elbow) and being able to attach to the body through a motor, as well as having a stable base to attach the hands to.
 
@@ -238,17 +239,21 @@ Arm Development:
 
 ### Version 1:
 
-![]([RackMultipart20230526-1-7ohvgs_html_4821d0de579b34dd.png](https://github.com/UniUserBW/UniUserBw.github.io/blob/1250356a323f7a6e8cc28b05bc43149229f54617/parts_images/ARMV1.PNG)) ![](https://github.com/UniUserBW/UniUserBw.github.io/blob/1250356a323f7a6e8cc28b05bc43149229f54617/parts_images/ARM%203.png)The first stage of the arm is strictly to create a design that fits in place to the body, whilst extending to appoint where a hand could be attached to the end.
+![]([RackMultipart20230526-1-7ohvgs_html_4821d0de579b34dd.png](https://github.com/UniUserBW/UniUserBw.github.io/blob/1250356a323f7a6e8cc28b05bc43149229f54617/parts_images/ARMV1.PNG)) 
+![](https://github.com/UniUserBW/UniUserBw.github.io/blob/1250356a323f7a6e8cc28b05bc43149229f54617/parts_images/ARM%203.png)
+The first stage of the arm is strictly to create a design that fits in place to the body, whilst extending to appoint where a hand could be attached to the end.
 
 This served as the base foundation to developing the arm, its clear where a hinge could be applied to add movement to the arm and the contact points are made at the ends, the character being created does not follow normal human body dimensions, so this arm is completely designed as a test. The changes made from the production of the basic arm was a more rigid design, since the hinge and arm is going to be two sections connected, the shape of the arm needed to me a straighter alignment to add hinges effectively unlike the curved basis of the previous version. This had its proportions matched to the rest of the body parts. The main change required is implementing the hinge in the next version.
 
 ## Version 2:
 
-![](https://github.com/UniUserBW/UniUserBw.github.io/blob/1250356a323f7a6e8cc28b05bc43149229f54617/parts_images/ARM%204.png)This version meets the criteria the arm needed to achieve, with the implementation of a hinge which is a print in place hinge when 3d printing and a complete redesign of the outline and making it essentially two parts connected through the hinge, this part continues to use the same dimensions whilst having less filled in to save money and filament within the printing process. This allows the arm to pivot and rotate at the joint of the elbow which will allow the animatronic to recreate dancing and movement using the motors. Printing both pieces together and as a connected joint allow for quicker and simpler assembly and makes testing more efficient.
+![](https://github.com/UniUserBW/UniUserBw.github.io/blob/1250356a323f7a6e8cc28b05bc43149229f54617/parts_images/ARM%204.png)
+This version meets the criteria the arm needed to achieve, with the implementation of a hinge which is a print in place hinge when 3d printing and a complete redesign of the outline and making it essentially two parts connected through the hinge, this part continues to use the same dimensions whilst having less filled in to save money and filament within the printing process. This allows the arm to pivot and rotate at the joint of the elbow which will allow the animatronic to recreate dancing and movement using the motors. Printing both pieces together and as a connected joint allow for quicker and simpler assembly and makes testing more efficient.
 
 ## Final Version:
 
-![](https://github.com/UniUserBW/UniUserBw.github.io/blob/1250356a323f7a6e8cc28b05bc43149229f54617/parts_images/ARM%205.png)The final version of the arm keeps hinge/joint system created in version 4 but changes the geometry of the arm by shortening what would be the arm to the animatronic, this creates a more realistic proportion of the arm.
+![](https://github.com/UniUserBW/UniUserBw.github.io/blob/1250356a323f7a6e8cc28b05bc43149229f54617/parts_images/ARM%205.png)
+The final version of the arm keeps hinge/joint system created in version 4 but changes the geometry of the arm by shortening what would be the arm to the animatronic, this creates a more realistic proportion of the arm.
 
 # Artefact creation:
 
@@ -268,7 +273,9 @@ The head being created first was successful with printing, following this the up
 
 ![](https://github.com/UniUserBW/UniUserBw.github.io/blob/1250356a323f7a6e8cc28b05bc43149229f54617/parts_images/IMG_4959.JPG)
 
-![](https://github.com/UniUserBW/UniUserBw.github.io/blob/1250356a323f7a6e8cc28b05bc43149229f54617/document_images/20230207_154659.jpg) ![](https://github.com/UniUserBW/UniUserBw.github.io/blob/1250356a323f7a6e8cc28b05bc43149229f54617/document_images/20230207_153802.jpg)
+![](https://github.com/UniUserBW/UniUserBw.github.io/blob/1250356a323f7a6e8cc28b05bc43149229f54617/document_images/20230207_154659.jpg) 
+
+![](https://github.com/UniUserBW/UniUserBw.github.io/blob/1250356a323f7a6e8cc28b05bc43149229f54617/document_images/20230207_153802.jpg)
 
 ![](https://github.com/UniUserBW/UniUserBw.github.io/blob/1250356a323f7a6e8cc28b05bc43149229f54617/document_images/20230207_154859.jpg)
 
