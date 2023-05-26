@@ -117,7 +117,7 @@ Should:
 
 Sero Motors embedded into the joints/hinges created to simulate movement, expected to be 3 servo motors on budget restrictions.
 
-Micro controller, the micro controller will enable the use of the servo motors and create programmable movements for the animatronic
+Micro controller/Arduino, the micro controller/Arduino will enable the use of the servo motors and create programmable movements for the animatronic
 
 Could:
 
@@ -125,7 +125,7 @@ MP3 Audio Playing Capabilities, using a speaker to allow the use of storing and 
 
 Would:
 
-If the project was commercially made and to an industry standard, wheels could be used to allow for positional movement for the animatronic and allow for better interactivity.
+If the project was commercially made and to an industry standard, sensors could be used to detect people and have the artefact dance when people come close
 
 # Hardware Considerations:
 
