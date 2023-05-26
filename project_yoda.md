@@ -2,6 +2,49 @@
 
 # Contents
 
+# Introduction
+
+# Technologies 
+- 3D Modelling and design methods
+- 3D Scanning
+- Motion Capture
+- Haptic Sculpting
+- 3D Printing
+- Laser Cutting
+- Resing Casting
+- CAD Software
+- Fusion 360
+- AutoDesk123D
+- Blender
+- Mesh Mixer
+
+# Concept
+
+# Hardware Considerations
+- Hardware
+
+# Design Conceps
+- AutoDesk123D
+- Mesh Mixer
+- Cura
+- Arduino
+- Adobe illustrator
+
+# Design
+- Development of artefact
+- version 1
+- version 2
+- final version
+
+# Artefact Creation
+- Production Mediums
+- Prototype Development
+- Artefact Analysis
+
+# Artefact Analysis
+
+# Conclusion
+
 # Introduction:
 
 During this project, the main goal is to implement researched and tested commercially used 3D modelling software's and techniques, as well manufacturing processes and abilities at disposal. Using these methods, the aim is to produce a simple animatronic that can perform dances and movements as well as play songs and voice lines. Specifically, within this project, a recreation of an existing character model using these techniques will be produced. The development process to this project will be documented here whilst critically analysing the result as well as the processes used to create it. A range of technologies and software's that can be used will be researched and decided against with a development stage to the artefact and an overall conclusion.
